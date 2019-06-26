@@ -70,7 +70,7 @@ gem 'jquery-rails'
 gem 'rest-client'
 
 # Sprockets Rails
-gem 'sprockets-rails', :require => 'sprockets/railtie'
+gem 'bootswatch-rails'
 
 # Bootstrap 4
 gem 'bootstrap', '~> 4.3.1'
