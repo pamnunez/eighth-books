@@ -1,4 +1,20 @@
-<h1><%= params['q'] %>:</h1>
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <fieldset>
+          <%= form_tag("/search", method: "post") do %>
+            <label class="control-label" for="searchQuery">Search terms</label>
+            <%= text_field_tag(:q, "", class: "form-control", type: "text", placeholder: params['q'] ) %>
+            <%= submit_tag("Search") %>
+          <% end %>
+        </fieldset>
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+</div>
 <table id="results" class="table table-bordered table-striped table-hover">
   <thead>
     <tr>
@@ -16,12 +32,20 @@
           <%= book["volumeInfo"]["title"] %>
         </td>
         <% if book["volumeInfo"]["authors"].present? %>
-          <td><%= book["volumeInfo"]["authors"][0] %></td>
+          <td><%= book["volumeInfo"]["authors"].join(", ") %></td>
         <% else %>
           <td></td>
         <% end %>
-        <td><%= book["volumeInfo"]["publisher"] %></td>
-        <td><img src=<%= book["volumeInfo"]["imageLinks"]["thumbnail"] %>></td>
+        <% if book["volumeInfo"]["publisher"].present? %>
+          <td><%= book["volumeInfo"]["publisher"] %></td>
+        <% else %>
+          <td></td>
+        <% end %>
+        <% if book["volumeInfo"]["imageLinks"].present? %>
+          <td><img src=<%= book["volumeInfo"]["imageLinks"]["thumbnail"] %>></td>
+        <% else %>
+          <td></td>
+        <% end %>
       </tr>
     <% end %>
   </tbody>

@@ -15,7 +15,7 @@
         <div class="col-md-6">
           <div class="form-group">
             <%= form_tag("/search", method: "post") do %>
-              <%= label_tag(:q, "Search for a book:", class: "col-form-label col-form-label-lg" ) %>
+              <label for="q" class="col-form-label col-form-label-lg">Search for a book:</label>
               <%= text_field_tag(:q, "", class: "form-control", type: "text" ) %>
               <%= submit_tag("Search") %>
             <% end %>
