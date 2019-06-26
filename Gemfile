@@ -65,3 +65,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # jQuery gem
 gem 'jquery-rails'
+
+# REST gem
+gem 'rest-client'
