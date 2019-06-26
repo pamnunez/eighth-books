@@ -1,0 +1,8 @@
+<h1>Welcome to the 8th Books Search Engine!</h1>
+<h2>Powered by Google Books</h2>
+<h3>Search for a book: </h3>
+<%= form_tag("/search", method: "post") do %>
+  <%= label_tag(:q, "") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+<% end %>

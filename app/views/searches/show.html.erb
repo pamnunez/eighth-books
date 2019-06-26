@@ -1,0 +1,4 @@
+<h1><%= params['q'] %>:</h1>
+<% @objects.each do |object|%>
+<h2> <a href=<%= object["selfLink"]%> target="_blank"><%= object["volumeInfo"]["title"] %></a>  </h2>
+<% end %>

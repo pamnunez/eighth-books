@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root to: 'pages#index'
+  get '/search', to: 'searches#new'
+  post '/search', to: 'searches#show'
 end
