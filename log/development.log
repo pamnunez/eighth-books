@@ -1,0 +1,2094 @@
+Started GET "/" for ::1 at 2019-06-25 22:14:03 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (11.8ms)
+Completed 200 OK in 56ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 22:17:20 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 22:17:21 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.4ms)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 22:19:54 -0400
+  
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-06-25 22:27:35 -0400
+Processing by PagesController#index as HTML
+Completed 406 Not Acceptable in 74ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (PagesController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.3) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-06-25 22:30:39 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 806ms (Views: 803.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 22:41:52 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 692ms (Views: 681.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 22:45:11 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 33587ms (Views: 33572.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 22:47:33 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 113ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 22:48:17 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 85ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 22:49:45 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 77ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 23:23:53 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 108ms (Views: 106.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 23:23:58 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 135ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 23:24:24 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 85ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 23:24:27 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 83ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 23:24:28 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 96ms (Views: 93.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 23:26:21 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 120ms (Views: 118.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-25 23:26:32 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.2ms)
+Completed 200 OK in 74ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:30:44 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 96ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:33:30 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 111ms (Views: 108.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:34:22 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 133ms (Views: 131.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:34:24 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 99ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:35:40 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 83ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:38:28 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:38:58 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:40:34 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 84ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:43:00 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 62ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:46:18 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 73ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:46:20 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:47:25 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 55ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:47:34 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 65ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:47:45 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:48:52 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 64ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:48:54 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 72ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:49:30 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:51:31 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:51:32 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:51:49 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:51:50 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 00:52:56 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 01:30:27 -0400
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 3840ms (Views: 3837.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 02:00:04 -0400
+Processing by PagesController#index as HTML
+Completed 406 Not Acceptable in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (PagesController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.3) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/new" for ::1 at 2019-06-26 02:03:02 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/search" for ::1 at 2019-06-26 02:03:05 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 91ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 02:05:49 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 172ms (Views: 170.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 02:06:10 -0400
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for ::1 at 2019-06-26 02:06:21 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 98ms (Views: 96.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 02:08:00 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 66ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 02:09:46 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 72ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 02:10:14 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial searches/_new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/pamnunez/ruby/eighth-books/app/views"
+):
+    11: 
+    12:   <body>
+    13:     <%= render 'layouts/navigation' %>
+    14:     <%= render 'searches/new' %>
+    15:   </body>
+    16: </html>
+  
+app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__3705896258215795700_70101984847100'
+Started GET "/" for ::1 at 2019-06-26 02:19:02 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial searches/_new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/pamnunez/ruby/eighth-books/app/views"
+):
+    11: 
+    12:   <body>
+    13:     <%= render 'layouts/navigation' %>
+    14:     <%= render 'searches/new' %>
+    15:   </body>
+    16: </html>
+  
+app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__3705896258215795700_70101972696580'
+Started GET "/" for ::1 at 2019-06-26 02:19:03 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial searches/_new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/pamnunez/ruby/eighth-books/app/views"
+):
+    11: 
+    12:   <body>
+    13:     <%= render 'layouts/navigation' %>
+    14:     <%= render 'searches/new' %>
+    15:   </body>
+    16: </html>
+  
+app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__3705896258215795700_70101853474380'
+Started GET "/" for ::1 at 2019-06-26 02:19:16 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 60ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 02:20:45 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 110ms (Views: 104.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 02:22:12 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 80ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-26 02:24:04 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 49ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 02:24:12 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 121ms (Views: 116.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 02:25:14 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial searches/_new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/pamnunez/ruby/eighth-books/app/views"
+):
+    11: 
+    12:   <body>
+    13:     <%= render 'layouts/navigation' %>
+    14:     <%= render 'searches/new' %>
+    15:   </body>
+    16: </html>
+  
+app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__3705896258215795700_70101976855080'
+Started GET "/search" for ::1 at 2019-06-26 02:27:36 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 101ms (Views: 99.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 02:27:41 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EcF9hQsFpvkRfw8qF9b6/ndoiJovuQZ6L/8gCv4iqWfplMO89Skvhxl78PRP+DYvDXxdwHaIXD4qpvdwrqyFXA==", "q"=>"apple", "commit"=>"Search"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant SearchesController::RestClient):
+  
+app/controllers/searches_controller.rb:7:in `show'
+Started GET "/search" for ::1 at 2019-06-26 02:30:48 -0400
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/controllers/searches_controller.rb:1:in `<top (required)>'
+Started GET "/" for ::1 at 2019-06-26 02:30:51 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 02:30:52 -0400
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/controllers/searches_controller.rb:1:in `<top (required)>'
+Started GET "/search" for ::1 at 2019-06-26 02:31:18 -0400
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/controllers/searches_controller.rb:2:in `<class:SearchesController>'
+app/controllers/searches_controller.rb:1:in `<top (required)>'
+Started GET "/search" for ::1 at 2019-06-26 02:33:26 -0400
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/controllers/searches_controller.rb:2:in `<class:SearchesController>'
+app/controllers/searches_controller.rb:1:in `<top (required)>'
+Started GET "/search" for ::1 at 2019-06-26 02:33:34 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 82ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 02:33:45 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant SearchesController::RestClient):
+  
+app/controllers/searches_controller.rb:9:in `show'
+Started POST "/search" for ::1 at 2019-06-26 02:35:24 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (12.2ms)
+Completed 500 Internal Server Error in 690ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1><%= params['q'].capitalize %>:</h1>
+    2: <% @objects.each do |object|%>
+    3: <h2> <a href=<%= object["url"]%> target="_blank"><%= object["title"] %></a>  </h2>
+    4:   <% if !object["images"][0].nil? %>
+    5:     <a href=<%=object["images"][0].first[1]["url"]%>>
+  
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243625254620'
+Started POST "/search" for ::1 at 2019-06-26 02:37:49 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+Completed 500 Internal Server Error in 346ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `zero?' for nil:NilClass):
+  
+app/controllers/searches_controller.rb:13:in `show'
+Started POST "/search" for ::1 at 2019-06-26 02:38:32 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+Completed 500 Internal Server Error in 440ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `zero?' for nil:NilClass):
+  
+app/controllers/searches_controller.rb:13:in `show'
+Started POST "/search" for ::1 at 2019-06-26 02:38:36 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+Completed 500 Internal Server Error in 302ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `zero?' for nil:NilClass):
+  
+app/controllers/searches_controller.rb:13:in `show'
+Started POST "/search" for ::1 at 2019-06-26 02:39:15 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+Completed 500 Internal Server Error in 349ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `zero?' for nil:NilClass):
+  
+app/controllers/searches_controller.rb:13:in `show'
+Started POST "/search" for ::1 at 2019-06-26 02:39:17 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+Completed 500 Internal Server Error in 308ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `zero?' for nil:NilClass):
+  
+app/controllers/searches_controller.rb:13:in `show'
+Started POST "/search" for ::1 at 2019-06-26 02:41:45 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+Completed 500 Internal Server Error in 598ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `zero?' for nil:NilClass):
+  
+app/controllers/searches_controller.rb:13:in `show'
+Started POST "/search" for ::1 at 2019-06-26 02:45:26 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+Completed 500 Internal Server Error in 323ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `zero?' for nil:NilClass):
+  
+app/controllers/searches_controller.rb:13:in `show'
+Started POST "/search" for ::1 at 2019-06-26 02:45:40 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+Completed 500 Internal Server Error in 475ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `zero?' for nil:NilClass):
+  
+app/controllers/searches_controller.rb:13:in `show'
+Started POST "/search" for ::1 at 2019-06-26 02:45:57 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+Completed 500 Internal Server Error in 303ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `zero?' for nil:NilClass):
+  
+app/controllers/searches_controller.rb:14:in `show'
+Started POST "/search" for ::1 at 2019-06-26 02:45:58 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+Completed 500 Internal Server Error in 297ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `zero?' for nil:NilClass):
+  
+app/controllers/searches_controller.rb:14:in `show'
+Started POST "/search" for ::1 at 2019-06-26 02:48:32 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+Completed 500 Internal Server Error in 397ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `zero?' for nil:NilClass):
+  
+app/controllers/searches_controller.rb:14:in `show'
+Started POST "/search" for ::1 at 2019-06-26 02:53:10 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 375ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1><%= params['q'].capitalize %>:</h1>
+    2: <% @objects.each do |object|%>
+    3: <h2> <a href=<%= object["url"]%> target="_blank"><%= object["title"] %></a>  </h2>
+    4:   <% if !object["images"][0].nil? %>
+    5:     <a href=<%=object["images"][0].first[1]["url"]%>>
+  
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243625843680'
+Started POST "/search" for ::1 at 2019-06-26 02:53:59 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 349ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1><%= params['q'].capitalize %>:</h1>
+    2: <% @objects.each do |object|%>
+    3: <h2> <a href=<%= object["url"]%> target="_blank"><%= object["title"] %></a>  </h2>
+    4:   <% if !object["images"][0].nil? %>
+    5:     <a href=<%=object["images"][0].first[1]["url"]%>>
+  
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70368652094640'
+Started POST "/search" for ::1 at 2019-06-26 02:54:18 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 385ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h1><%= params['q'].capitalize %>:</h1>
+    2: <% @objects.each do |object|%>
+    3: <h2> <a href=<%= object["url"]%> target="_blank"><%= object["title"] %></a>  </h2>
+    4:   <% if !object["images"][0].nil? %>
+    5:     <a href=<%=object["images"][0].first[1]["url"]%>>
+    6:       <img class="image" border="0" src=<%=object["images"]  [0].first[1]["url"]%>>
+    7:     </a>
+  
+app/views/searches/show.html.erb:4:in `block in _app_views_searches_show_html_erb__756446424343824634_70368642709500'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70368642709500'
+Started POST "/search" for ::1 at 2019-06-26 02:59:38 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 415ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h1><%= params['q'].capitalize %>:</h1>
+    2: <% @objects.each do |object|%>
+    3: <h2> <a href=<%= object["url"]%> target="_blank"><%= object["title"] %></a>  </h2>
+    4:   <% if !object["items"][0].nil? %>
+    5:     <a href=<%=object["items"][0][volumeInfo]["title"]%>>
+    6:       <img class="image" border="0" src=<%=object["images"]  [0].first[1]["url"]%>>
+    7:     </a>
+  
+app/views/searches/show.html.erb:4:in `block in _app_views_searches_show_html_erb__756446424343824634_70243653826380'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243653826380'
+Started POST "/search" for ::1 at 2019-06-26 03:02:41 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VAVDb4m/CvlnOK+4j88QSfK2+SHXAgZcnzNu2Esli+KsUP1Wd5ODh288UGbX4dyYiKIse44zXBiaarmiG6un2Q==", "q"=>"sr", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 2501ms (Views: 2173.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 03:04:09 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 69ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 03:04:12 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eCHdZdvS17gpSScnJm8eYwPesEwdYDWV5ygYUaI2plCAdGNcJf5exiFN2Pl+QdKyecplFkRRb9Hicc8r8riKaw==", "q"=>"as", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 573ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 03:06:59 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 77ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 03:07:02 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I3mA07mtPpiOYxP5Ra+/r9SBnoE+tGaZhHbwUNoslNjbLD7qR4G35oZn7CcdgXN+rpVL22eFPN2BLycqiqK44w==", "q"=>"sd", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 524ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 03:08:16 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+Completed 200 OK in 97ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 03:08:18 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/DJeleUhm8LjFraTQu2H/vqD2FBKrpOVp5P8igZE+CYEZ+CsGw0SvOsSSU0aw0svgJcNChOfydGiyivwVsrUHQ==", "q"=>"adsf", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 429ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 03:54:13 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+Completed 200 OK in 70ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 03:54:16 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YVXi13IL0+U9fbq2J1/Xx1Vuud+JhqhtsxS3wmNvrT+ZAFzujCdamzV5RWh/cRsWL3pshdC38im2TWC4M+GBBA==", "q"=>"sa", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 774ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 03:54:42 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 74ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 03:54:44 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4myLENOGvq9qv45SLltxCmd1J0p3kWMN74Vl2WYgx5EaOTUpLao30WK7cYx2db3bHWHyEC6gOUnq3LKjNq7rqg==", "q"=>"sd", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 497ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 03:56:37 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 77ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 03:56:40 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JOPoTR62EEa0dBjSp9cPDbJRAHmj5TU8SAnuBHdnJgPctlZ04JqZOLxw5wz/+cPcyEXVI/rUb3hNUDl+J+kKOA==", "q"=>"dw", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 776ms (Views: 87.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 03:56:55 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 73ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:03:49 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 66ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:03:51 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 59ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:03:52 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UzG1eg+NKDi04RD/rzS3pniOtitfX7wCz8iuVWq8xqirZAtD8aGhRrzl7yH3Gnt3AppjcQZu5kbKkXkvOjLqkw==", "q"=>"sd", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 697ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    11:         <tbody>
+    12:             <tr>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"][0]%></td>
+    15:                 <td><img class="image" border="0" src=<%= object["volumeInfo"]["imageLinks"]["smallThumbnail"]%>></td>
+    16:             </tr>
+    17:         </tbody>
+  
+app/views/searches/show.html.erb:14:in `block in _app_views_searches_show_html_erb__756446424343824634_70243557882140'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243557882140'
+Started POST "/search" for ::1 at 2019-06-26 04:04:08 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UzG1eg+NKDi04RD/rzS3pniOtitfX7wCz8iuVWq8xqirZAtD8aGhRrzl7yH3Gnt3AppjcQZu5kbKkXkvOjLqkw==", "q"=>"sd", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 449ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:04:42 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 65ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:04:44 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cGjKn0xM0rufwAwIX0NosrLjz35BIB5J6R0hZAdVAv+IPXSmsmBbxZfE89YHbaRjyPcaJBgRRA3sRPYeV9suxA==", "q"=>"sd", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 439ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `first' for nil:NilClass):
+    11:         <tbody>
+    12:             <tr>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"].first[1]%></td>
+    15:                 <td><img class="image" border="0" src=<%= object["volumeInfo"]["imageLinks"]["smallThumbnail"]%>></td>
+    16:             </tr>
+    17:         </tbody>
+  
+app/views/searches/show.html.erb:14:in `block in _app_views_searches_show_html_erb__756446424343824634_70368651845020'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70368651845020'
+Started POST "/search" for ::1 at 2019-06-26 04:05:01 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cGjKn0xM0rufwAwIX0NosrLjz35BIB5J6R0hZAdVAv+IPXSmsmBbxZfE89YHbaRjyPcaJBgRRA3sRPYeV9suxA==", "q"=>"sd", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 398ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:17:39 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:17:42 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8ZbpbPdpwZYuLf09oX+iJLYphqt9F8bNjLKEqy4AjWgJw1dVCUVI6CYpAuP5UW71zD1T8SQmnImJ61PRfo6hUw==", "q"=>"sd", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 540ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:18:09 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:18:13 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NtpAq4B5TJjHLayY1Bdp+oGkNuduhpO3SafIlJHlfd/Oj/6SflXF5s8pU0aMOaUr+7DjvTe3yfNM/h/uwWtR5A==", "q"=>"sds", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 717ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    12:             <tr><a href=<%= object["volumeInfo"]["previewLink"]%>>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"]%></td>
+    15:                 <td><img class="image" border="0" src=<%= object["volumeInfo"]["imageLinks"]["smallThumbnail"]%>></td>
+    16:             </a></tr>
+    17:         </tbody>
+    18:     </table>
+  
+app/views/searches/show.html.erb:15:in `block in _app_views_searches_show_html_erb__756446424343824634_70243656516080'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243656516080'
+Started POST "/search" for ::1 at 2019-06-26 04:20:51 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NtpAq4B5TJjHLayY1Bdp+oGkNuduhpO3SafIlJHlfd/Oj/6SflXF5s8pU0aMOaUr+7DjvTe3yfNM/h/uwWtR5A==", "q"=>"sds", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 401ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    12:             <tr>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"]%></td>
+    15:                 <td><img class="image" border="0" src=<%= object["volumeInfo"]["imageLinks"]["smallThumbnail"]%>></td>
+    16:             </tr>
+    17:         </tbody>
+    18:     </table>
+  
+app/views/searches/show.html.erb:15:in `block in _app_views_searches_show_html_erb__756446424343824634_70243488625520'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243488625520'
+Started POST "/search" for ::1 at 2019-06-26 04:21:14 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NtpAq4B5TJjHLayY1Bdp+oGkNuduhpO3SafIlJHlfd/Oj/6SflXF5s8pU0aMOaUr+7DjvTe3yfNM/h/uwWtR5A==", "q"=>"sds", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 343ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    18:     </table>
+    19:     <a href=<%= object["volumeInfo"]["previewLink"]%> target="_blank"><%= object["volumeInfo"]["title"] %></a>
+    20: 
+    21:       <img class="image" border="0" src=<%=object["images"]  [0].first[1]["url"]%>>
+    22: <% end %>
+  
+app/views/searches/show.html.erb:21:in `block in _app_views_searches_show_html_erb__756446424343824634_70368650136280'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70368650136280'
+Started POST "/search" for ::1 at 2019-06-26 04:21:29 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NtpAq4B5TJjHLayY1Bdp+oGkNuduhpO3SafIlJHlfd/Oj/6SflXF5s8pU0aMOaUr+7DjvTe3yfNM/h/uwWtR5A==", "q"=>"sds", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 348ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    18:     </table>
+    19:     <a href=<%= object["volumeInfo"]["previewLink"]%> target="_blank"><%= object["volumeInfo"]["title"] %></a>
+    20: 
+    21:       <img class="image" border="0" src=<%=object["images"]  [0].first[1]["url"]%>>
+    22: <% end %>
+  
+app/views/searches/show.html.erb:21:in `block in _app_views_searches_show_html_erb__756446424343824634_70243658416080'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243658416080'
+Started POST "/search" for ::1 at 2019-06-26 04:21:51 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NtpAq4B5TJjHLayY1Bdp+oGkNuduhpO3SafIlJHlfd/Oj/6SflXF5s8pU0aMOaUr+7DjvTe3yfNM/h/uwWtR5A==", "q"=>"sds", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 424ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    12:             <tr>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"]%></td>
+    15:                 <td><img class="image" border="0" src=<%= object["volumeInfo"]["imageLinks"]["smallThumbnail"]%>></td>
+    16:             </tr>
+    17:         </tbody>
+    18:     </table>
+  
+app/views/searches/show.html.erb:15:in `block in _app_views_searches_show_html_erb__756446424343824634_70243567592120'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243567592120'
+Started POST "/search" for ::1 at 2019-06-26 04:22:34 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NtpAq4B5TJjHLayY1Bdp+oGkNuduhpO3SafIlJHlfd/Oj/6SflXF5s8pU0aMOaUr+7DjvTe3yfNM/h/uwWtR5A==", "q"=>"sds", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 353ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    12:             <tr>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"]%></td>
+    15:                 <td><img class="image" border="0" src="<%= object["volumeInfo"]["imageLinks"]["smallThumbnail"]%>"></td>
+    16:             </tr>
+    17:         </tbody>
+    18:     </table>
+  
+app/views/searches/show.html.erb:15:in `block in _app_views_searches_show_html_erb__756446424343824634_70243489917280'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243489917280'
+Started POST "/search" for ::1 at 2019-06-26 04:23:10 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NtpAq4B5TJjHLayY1Bdp+oGkNuduhpO3SafIlJHlfd/Oj/6SflXF5s8pU0aMOaUr+7DjvTe3yfNM/h/uwWtR5A==", "q"=>"sds", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 363ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    12:             <tr>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"]%></td>
+    15:                 <td><img class="image" border="0" src=<%= object["volumeInfo"]["imageLinks"]["smallThumbnail"]%>></td>
+    16:             </tr>
+    17:         </tbody>
+    18:     </table>
+  
+app/views/searches/show.html.erb:15:in `block in _app_views_searches_show_html_erb__756446424343824634_70243657970380'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243657970380'
+Started POST "/search" for ::1 at 2019-06-26 04:23:14 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NtpAq4B5TJjHLayY1Bdp+oGkNuduhpO3SafIlJHlfd/Oj/6SflXF5s8pU0aMOaUr+7DjvTe3yfNM/h/uwWtR5A==", "q"=>"sds", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 2075ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    12:             <tr>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"]%></td>
+    15:                 <td><img class="image" border="0" src=<%= object["volumeInfo"]["imageLinks"]["smallThumbnail"]%>></td>
+    16:             </tr>
+    17:         </tbody>
+    18:     </table>
+  
+app/views/searches/show.html.erb:15:in `block in _app_views_searches_show_html_erb__756446424343824634_70243561605660'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243561605660'
+Started POST "/search" for ::1 at 2019-06-26 04:23:37 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NtpAq4B5TJjHLayY1Bdp+oGkNuduhpO3SafIlJHlfd/Oj/6SflXF5s8pU0aMOaUr+7DjvTe3yfNM/h/uwWtR5A==", "q"=>"sds", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 376ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    11:         <tbody>
+    12:             <tr>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"][0]%></td>
+    15:                 <td><%= object["volumeInfo"]["imageLinks"]%></td>
+    16:             </tr>
+    17:         </tbody>
+  
+app/views/searches/show.html.erb:14:in `block in _app_views_searches_show_html_erb__756446424343824634_70243489271320'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243489271320'
+Started POST "/search" for ::1 at 2019-06-26 04:23:45 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NtpAq4B5TJjHLayY1Bdp+oGkNuduhpO3SafIlJHlfd/Oj/6SflXF5s8pU0aMOaUr+7DjvTe3yfNM/h/uwWtR5A==", "q"=>"sds", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 703ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:24:14 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:24:18 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iesfn0ec5ri5r/6s6sF50meEEzenMUpKJUUmygk1DFxxvqGmubBvxrGrAXKy77UDHZDGbf4AEA4gHPGwWbsgZw==", "q"=>"ad", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 593ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:25:01 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:25:03 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y9h5eAqOORk9ykMPaPTER043Ew3AOrnAYz89UueyxnkzjcdB9KKwZzXOvNEw2giWNCPGV5kL44RmZuootzzqQg==", "q"=>"asd", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 583ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    11:         <tbody>
+    12:             <tr>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"][0]%></td>
+    15:                 <td><img src=<%= object["volumeInfo"]["imageLinks"]%>></td>
+    16:             </tr>
+    17:         </tbody>
+  
+app/views/searches/show.html.erb:14:in `block in _app_views_searches_show_html_erb__756446424343824634_70243659298600'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243659298600'
+Started POST "/search" for ::1 at 2019-06-26 04:25:51 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y9h5eAqOORk9ykMPaPTER043Ew3AOrnAYz89UueyxnkzjcdB9KKwZzXOvNEw2giWNCPGV5kL44RmZuootzzqQg==", "q"=>"asd", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 374ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    11:         <tbody>
+    12:             <tr>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"][0]%></td>
+    15:                 <td><img src=<%= object["volumeInfo"]["imageLinks"]["thumbnail"]%>></td>
+    16:             </tr>
+    17:         </tbody>
+  
+app/views/searches/show.html.erb:14:in `block in _app_views_searches_show_html_erb__756446424343824634_70243587701040'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243587701040'
+Started POST "/search" for ::1 at 2019-06-26 04:26:00 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y9h5eAqOORk9ykMPaPTER043Ew3AOrnAYz89UueyxnkzjcdB9KKwZzXOvNEw2giWNCPGV5kL44RmZuootzzqQg==", "q"=>"asd", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 352ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    11:         <tbody>
+    12:             <tr>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"][0]%></td>
+    15:                 <td><img src=<%= object["volumeInfo"]["imageLinks"]["thumbnail"]%>></td>
+    16:             </tr>
+    17:         </tbody>
+  
+app/views/searches/show.html.erb:14:in `block in _app_views_searches_show_html_erb__756446424343824634_70243490283780'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243490283780'
+Started POST "/search" for ::1 at 2019-06-26 04:26:08 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y9h5eAqOORk9ykMPaPTER043Ew3AOrnAYz89UueyxnkzjcdB9KKwZzXOvNEw2giWNCPGV5kL44RmZuootzzqQg==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 507ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:26:41 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:26:43 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Lz/1sxmad4HZtTUFbOOG/wPeGnxLVMthKUaccjSPBSfXakuK57b+/9Gxyts0zUouecrPJhJlkSUsH0sIZAEpHA==", "q"=>"amd", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 609ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    12:             <tr><a href=<%= object["volumeInfo"]["previewLink"]%>>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"][0]%></td>
+    15:                 <td><img src=<%= object["volumeInfo"]["imageLinks"]["thumbnail"]%>></td>
+    16:             </a></tr>
+    17:         </tbody>
+    18:     </table>
+  
+app/views/searches/show.html.erb:15:in `block in _app_views_searches_show_html_erb__756446424343824634_70243563458720'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243563458720'
+Started POST "/search" for ::1 at 2019-06-26 04:26:49 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Lz/1sxmad4HZtTUFbOOG/wPeGnxLVMthKUaccjSPBSfXakuK57b+/9Gxyts0zUouecrPJhJlkSUsH0sIZAEpHA==", "q"=>"sam", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 697ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    11:         <tbody>
+    12:             <tr><a href=<%= object["volumeInfo"]["previewLink"]%>>
+    13:                 <td><%= object["volumeInfo"]["title"]%></td>
+    14:                 <td><%= object["volumeInfo"]["authors"][0]%></td>
+    15:                 <td><img src=<%= object["volumeInfo"]["imageLinks"]["thumbnail"]%>></td>
+    16:             </a></tr>
+    17:         </tbody>
+  
+app/views/searches/show.html.erb:14:in `block in _app_views_searches_show_html_erb__756446424343824634_70243489370960'
+app/views/searches/show.html.erb:2:in `each'
+app/views/searches/show.html.erb:2:in `_app_views_searches_show_html_erb__756446424343824634_70243489370960'
+Started POST "/search" for ::1 at 2019-06-26 04:26:59 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Lz/1sxmad4HZtTUFbOOG/wPeGnxLVMthKUaccjSPBSfXakuK57b+/9Gxyts0zUouecrPJhJlkSUsH0sIZAEpHA==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 658ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:28:00 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:28:03 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S1uTEXG/is5+WNjUcm9asN7u7FK2fno0VENSo/1D3RyzDi0oj5MDsHZcJwoqQZZhpPo5CO9PIHBRGoXZrc3xJw==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 502ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:29:53 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 2216ms (Views: 2214.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:30:00 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vPfz5H6yJPey9ed7jGF1yfzTQF2Y1n5VkcMl5AvjZiZEok3dgJ6tibrxGKXUT7kYhseVB8HnJBGUmvKeW21KHQ==", "q"=>"sally", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 696ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:35:51 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 123ms (Views: 121.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:35:54 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ID00jGuOwC2wQC8Lr5hh0qTjHWuh7oJbD4K9UMtfJxHYaIq1laJJU7hE0NX3tq0D3vfIMfjf2B8K22oqm9ELKg==", "q"=>"damn", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 666ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:41:43 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 266ms (Views: 264.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:41:47 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"na7GF7tYKMil8WfBDRajgp4bED8j6MBEAPE97mjWmAhl+3guRXShtq31mB9VOG9T5A/FZXrZmgAFqOqUOFi0Mw==", "q"=>"hands", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 560ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:42:11 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 68ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:42:14 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LlZR6Jn1oITnxVMkp39vb34h+0nq+3m4MeU+tCwxRVvWA+/RZ9kp+u/BrPr/UaO+BDUuE7PKI/w0vOnOfL9pYA==", "q"=>"sand", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 682ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:45:20 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 153ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:45:24 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7KOun3CqxkwQp5vXxjAW6FvvMw9ZmUAPj0q+dZnKM6kU9hCmjoZPMhijZAmeHto5IfvmVQCoGkuKE2kPyUQfkg==", "q"=>"head", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 700ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:45:33 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 107ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:46:17 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 563ms (Views: 511.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:46:21 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cry+FSBVaogzKnNettQaPbG8jovd+vBFrKBEELBiqajy6QAs3nnj9jsujIDu+tbsy6hb0YTLqgGp+ZNq4OyFkw==", "q"=>"heat", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 912ms (Views: 134.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 04:51:46 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 04:51:49 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FqRUkEjRJYdyzYNZwXa2RlFwkt0Om70eixbAqs2tZknu8eqptv2s+XrJfIeZWHqXK2RHh1eq51qOTxfQnSNKcg==", "q"=>"heat", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 504ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:07:02 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (23.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 3076ms (Views: 3068.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:07:20 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fZtjuLjVyi8jpwxmbK/78Z8YnOADqufDFFW+9uqfgIGFzt2BRvlDUSuj87g0gTcg5QxJulqbvYcRDGmMuhGsug==", "q"=>"apple", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (548.3ms)
+Completed 500 Internal Server Error in 1283ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    12:       <% @objects.each do |object|%>
+    13:         <tr>
+    14:           <td><%= object["volumeInfo"]["title"]%></td>
+    15:           <td><%= object["volumeInfo"]["authors"][0]%></td>
+    16:           <td><%= object["volumeInfo"]["publisher"]%></td>
+    17:           <td><img src=<%= object["volumeInfo"]["imageLinks"]["thumbnail"]%>></td>
+    18:         </tr>
+  
+app/views/searches/show.html.erb:15:in `block in _app_views_searches_show_html_erb___4433758966560658478_70326903453900'
+app/views/searches/show.html.erb:12:in `each'
+app/views/searches/show.html.erb:12:in `_app_views_searches_show_html_erb___4433758966560658478_70326903453900'
+Started GET "/search" for ::1 at 2019-06-26 05:07:25 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 106ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:07:29 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wxyL9NUbR/A4QAI7R4npq0cNJiDyyQ+0oJ0llpzwWRg7STXNKzfOjjBE/eUfpyV6PRnzeqv4VfClxPLszH51Iw==", "q"=>"hand", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 860ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:08:36 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 238ms (Views: 234.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:08:41 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vGnyAqKEp6/Et1AOfMxoWXuUYWeSfB4QQwolFg8acAFEPEw7XKgu0cyzr9Ak4qSIAYC0PctNRFRGU/JsX5RcOg==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 552ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:12:29 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 272ms (Views: 270.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:12:34 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fpxw+gY1Rn8Lo9zdvQTUHLMT0w49CdjSKwyKNqQluNzuyc7D+BnPAQOnIwPlKhjNyQcGVGQ4gpYuVV1M9KuU5w==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 472ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:17:12 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 273ms (Views: 271.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:17:18 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G3O8fV7ZRIWFSDldB/dq4kC89sz0D40S3bU3edix+53jJgJEoPXN+41MxoNf2aYzOqgjlq0+11bY7OADiD/Xpg==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 503ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:19:25 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 211ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /home/pamnunez/ruby/eighth-books/app/assets/config
+  /home/pamnunez/ruby/eighth-books/app/assets/images
+  /home/pamnunez/ruby/eighth-books/app/assets/javascripts
+  /home/pamnunez/ruby/eighth-books/app/assets/stylesheets
+  /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/jquery-rails-4.3.5/vendor/assets/javascripts
+  /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/pamnunez/ruby/eighth-books/node_modules
+  /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /home/pamnunez/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/bootstrap-sass-3.3.7/assets/images):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__952967541255769979_70321201850780'
+Started GET "/search" for ::1 at 2019-06-26 05:20:10 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 611ms (Views: 609.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:20:13 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iCdPDA95sHZDW4QY8Wkz09btr2v8xPpRyuAc4nWaFTVwcvE18VU5CEtfe8apR/8CrPl6MaX1oBXPucuYJRQ5Dg==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 470ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:24:37 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 223ms (Views: 220.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:24:49 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSY9N8mHxcUiGfcrXA7Yfb53ZxUpBrJLZ7xObBBK/4d9c4MON6tMuyodCPUEIBSsxGOyT3A36A9i5ZkWQMTTvA==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 564ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:27:13 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 227ms (Views: 223.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:27:16 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VFREfBAM6vQJGzK3Qn/EELveZgFkg/wIzS47BcT9ob+sAfpF7iBjigEfzWkaUQjBwcqzWz2ypkzId+x/lHONhA==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 505ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:28:13 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 82ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:28:22 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pGrwGKwz6axocNxbcpxfkkJOGVNu6tZNc8/R7zCeVnPC6TaP/i/Swm0HWAUHJqyG+F5DSI8HmIZAODwmvokbXQ==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 453ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:29:40 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:29:48 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uDOnnGinalvKbWG/a2Do6bJ/NyFJSdrJfSjfsjq/IDdAZhmllovjJcJpnmEzTiQ4yGviexB4gI14cQjIajEMDA==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 494ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:31:13 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 216ms (Views: 212.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:31:19 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"axR+k6Cfs2zrwsCduvZvX8adumwNj0aj2AH/uZOewHGTQcCqXrM6EuPGP0Pi2KOOvIlvNlS+HOfdWCjDwxDsSg==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 451ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:31:35 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 329ms (Views: 327.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:31:38 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eBcJ79bSl3RsN3XIXDIdOZ7prya9Q9IQKjxTlXZ6z6OAQrfWKP4eCmQzihYEHNHo5P16fORyiFQvZYTvJvTjmA==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 610ms (Views: 157.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:35:42 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 288ms (Views: 285.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:35:45 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9s9RDIY/1KF/uHZSsaE8MCleNjj2RuEohx+su9yZ+7sOmu81eBNd33e8iYzpj/DhU0rjYq93u2yCRnvBjBfXgA==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 504ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:36:08 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 248ms (Views: 245.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:36:12 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SsP5HStcYjgziIAqWrdx7GRjihrrHj7PJDmeNb+eUPWylkck1XDrRjuMf/QCmb09HndfQLIvZIshYElP7xB8zg==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 607ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:38:29 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:38:32 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i1HNXU34H0M5tV+eNKfGT0wtMh2dnLdabANFDt92yPxzBHNks9SWPTGxoEBsiQqeNjnnR8St7R5pWpJ0j/jkxw==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 529ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:38:56 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 77ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:38:59 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LO8LVcmTgoOw1yDPSanyK0+zp3RUjb3xPG+y1NmAtEDUurVsN78L/bjT3xERhz76NadyLg2857U5NmWuiQ6Yew==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 561ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:40:17 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+Completed 200 OK in 80ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:40:22 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ff4DXw4WtbOvcARcpZ0jg0jl33X+OY52UOLSFNN3Ulbtq71m8Do8zad0+4L9s+9SMvEKL6cI1DJVuwVug/l+bQ==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 507ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:40:32 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 78ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:40:35 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LIiOsOSs11K8wGQETUHjVorlBgqtSusYigVw0tupYwTU3TCJGoBeLLTEm9oVby+H8PHTUPR7sVyPXKeoiydPPw==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 458ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:40:41 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (12.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 167ms (Views: 161.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-26 05:40:44 -0400
+Processing by SearchesController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IezqQfy62btXXBZbU8qmloz0/FV07F/3gwyB5OIhcCTZuVR4ApZQxV9Y6YUL5GpH9uApDy3dBbOGVVaesq9cHw==", "q"=>"harry", "commit"=>"Search"}
+  Rendering searches/show.html.erb within layouts/application
+  Rendered searches/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 481ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-26 05:40:49 -0400
+Processing by SearchesController#new as HTML
+  Rendering searches/new.html.erb within layouts/application
+  Rendered searches/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 160ms (Views: 153.5ms | ActiveRecord: 0.0ms)
+
+

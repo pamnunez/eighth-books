@@ -1,4 +1,21 @@
 <h1><%= params['q'] %>:</h1>
-<% @objects.each do |object|%>
-<h2> <a href=<%= object["selfLink"]%> target="_blank"><%= object["volumeInfo"]["title"] %></a>  </h2>
-<% end %>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Title</th>
+      <th scope="col">Author</th>
+      <th scope="col">Publisher</th>
+      <th scope="col">Preview</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @objects.each do |object|%>
+      <tr>
+        <td><a href=<%= object["volumeInfo"]["previewLink"]%> target="_blank"><%= object["volumeInfo"]["title"]%></a></td>
+        <td><%= object["volumeInfo"]["authors"][0]%></td>
+        <td><%= object["volumeInfo"]["publisher"]%></td>
+        <td><img src=<%= object["volumeInfo"]["imageLinks"]["thumbnail"]%>></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
