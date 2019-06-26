@@ -9,7 +9,7 @@ class SearchesController < ApplicationController
         json = JSON.parse(response)
         
         if !json['totalItems'].zero?
-              @objects = json["items"]
+              @books = json["items"]
         else
             render :new
         end

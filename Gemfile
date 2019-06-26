@@ -68,3 +68,9 @@ gem 'jquery-rails'
 
 # REST gem
 gem 'rest-client'
+
+# Sprockets Rails
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+
+# Bootstrap 4
+gem 'bootstrap', '~> 4.3.1'
