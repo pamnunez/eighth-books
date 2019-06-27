@@ -64,6 +64,7 @@ Coming soon!
  - Implement a preview function that allows someone to view basic information about a book before clicking on that result to view the full information page. Ideally this would be done asynchronously and would appear on the same screen as the search results as an alert.
  - Add a dedicated error page for 400s/404s/etc
  - Implement more robust user input cleanup including preventing code injection
+ - Address the security vulnerability reported by Github regarding the bootstrap-sass dependency
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
