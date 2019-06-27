@@ -1,4 +1,6 @@
 # 8th Books Search Engine
+Version 0.5
+
 Written by Pam Nunez
 Powered by Google Books API
 
