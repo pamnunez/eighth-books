@@ -26,7 +26,7 @@
   </thead>
   <tbody>
     <% @books.each do |book| %>
-      <tr onclick="window.location='<%= book['volumeInfo']['previewLink'] %>'" scope="row">
+      <tr onclick="window.location='<%= book['volumeInfo']['previewLink'] %>'" style="cursor: pointer" scope="row">
         <td><%= book["volumeInfo"]["title"] %></td>
         <% if book["volumeInfo"]["authors"].present? %>
           <td><%= book["volumeInfo"]["authors"].join(", ") %></td>
