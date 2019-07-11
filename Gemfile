@@ -82,3 +82,10 @@ gem 'bootswatch-rails'
 
 # Bootstrap 4
 gem 'bootstrap', '~> 4.3.1'
+
+# Pagination gem and bootstrap pagination
+gem 'will_paginate', '~> 3.1.0'
+gem 'will_paginate-bootstrap'
+
+# Gem to paginate API results
+gem 'api-pagination'
