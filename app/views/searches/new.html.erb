@@ -5,14 +5,16 @@
     </div>
     <div class="col-lg-10">
       <div class="row justify-content-md-center">
+        <div class="col-lg-2"></div>
         <div class="col-lg-8 text-center">
           <h2>Welcome to the 8th Books Search Engine!</h2>
           <h5>Powered by Google Books</h5>
         </div>
+        <div class="col-lg-2"></div>
       </div>
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
+    <div class="row">
+      <div class="col-xs-1 col-lg-2"></div>
+        <div class="col-xs-10 col-lg-8">
           <div class="form-group">
             <%= form_tag("/search", method: "post") do %>
               <label for="q" class="col-form-label col-form-label-lg">Search for a book:</label>
@@ -21,7 +23,8 @@
             <% end %>
           </div>
         </div>
-      </div>
+        <div class="col-xs-1 col-lg-2"></div>
+      </div> 
     </div>
     <div class="col col-lg-1">
     </div>
