@@ -36,6 +36,9 @@ $ bundle install
 $ rails server
 ```
 
+### Docker
+Coming soon!
+
 ### Deployment
 The production version of the app is deployed on Heroku using Git. The Heroku Postgres and Heroku Redis add-ons are installed. The deployment is triggered by pushing the desired branch (I've been using master, however in the future I will use the dedicated deployment branch for deployment) to the heroku remote repository associated with my Heroku account. Heroku CLI must be configured with my credentials before deployment. Once there is a commit on the branch that is ready to be deployed, run the following commands to assign the heroku remote for deployment:
 
@@ -51,9 +54,6 @@ There is currently no continuous integration implemented, this is soon to come.
 
 ### Testing
 
-
-### Docker
-Coming soon!
 
 ### Todos
 
