@@ -1,5 +1,5 @@
 # 8th Books Search Engine
-Version 0.5
+Version 0.6
 
 Written by Pam Nunez
 Powered by Google Books API
@@ -28,13 +28,28 @@ This repository is publically available on [Github][repo].
 
 8th Books is accessible via web browser. To implement, make sure the above versions of Ruby and Rails are installed on the system. To run locally:
 
-Install the dependencies and devDependencies and start the server.
+Clone the repository, install the dependencies and devDependencies and start the server.
 
 ```sh
-$ cd project-directory/
+$ cd eighth-books/
 $ bundle install
 $ rails server
 ```
+
+### Deployment
+The production version of the app is deployed on Heroku using Git. The Heroku Postgres and Heroku Redis add-ons are installed. The deployment is triggered by pushing the desired branch (I've been using master, however in the future I will use the dedicated deployment branch for deployment) to the heroku remote repository associated with my Heroku account. Heroku CLI must be configured with my credentials before deployment. Once there is a commit on the branch that is ready to be deployed, run the following commands to assign the heroku remote for deployment:
+
+```sh
+$ heroku git:remote -a eighthbooks
+# set git remote heroku to https://git.heroku.com/eighthbooks
+$ git push heroku master
+# Gem bundling, server starting and deployment
+```
+
+This will automatically install the necessary gems, run the Rails and Redis servers, and serve the app to [https://eighthbooks.herokuapp.com][eighthbooks].
+
+### Testing
+
 
 ### Docker
 Coming soon!
@@ -66,3 +81,4 @@ Pamela Nunez, June 2019
    [rspec]: <https://rspec.info/>
    [heroku]: <http://heroku.com/home>
    [repo]: <https://github.com/pamnunez/eighth-books>
+   [eighthbooks]: <https://eighthbooks.herokuapp.com>
