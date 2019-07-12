@@ -1,12 +1,14 @@
 class SearchesController < ApplicationController
     def new
     end
-    
+
     def show
         if !params['q'].nil? then
-            # If there is a new query passed, cache that query string to call again for new pages
+            # If there is a new query passed, cache that query string to 
+            # call again for new pages and clear old page cache to first page
             @search_query = params['q'].strip.gsub(/\s+/, '+')
             $redis.set("query", params[:q])
+            $redis.set("page", 1)
         else
             # If there is not a new query, use cached query
             @search_query = $redis.get("query")
@@ -37,9 +39,15 @@ class SearchesController < ApplicationController
                 results = Book.new(previewLink, title, authors, publisher, thumbnail)
                 @books.push(results)
             end
-            # Call the pagy function for arrays to paginate results
-            @pagy_a, @books = pagy_array(@books, page: (params[:page]), count: 30, items: 10, size: [1, 1, 1, 1])
-            
+
+            # Call the pagy function for arrays to paginate results only if page param is valid
+            if ((params[:page] == "1") || (params[:page] == "2") || (params[:page] == "3"))
+                $redis.set("page", params[:page])       # Cache current valid page number
+                @pagy_a, @books = pagy_array(@books, page: (params[:page]), count: 30, items: 10, size: [1, 1, 1, 1])
+            else
+                # If page is invalid, redirect to previous valid page
+                redirect_to action: 'show', page:$redis.get("page")
+            end
         else
             render :new
         end
