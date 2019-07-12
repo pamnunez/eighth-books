@@ -54,6 +54,11 @@ There is currently no continuous integration implemented, this is soon to come.
 
 ### Testing
 
+One of the gems in the Capybara testing requires the following node package to be installed:
+```sh
+npm install --save-dev angular-http-server
+```
+
 
 ### Todos
 
