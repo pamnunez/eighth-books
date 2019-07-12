@@ -1,34 +1,19 @@
 require 'rails_helper'
-#require 'capybara/rspec'
 
-describe SearchesController, type: :controller do
-    it "routes /search to search#new" do
-        expect(get: '/search').to route_to(
-            controller: "searches",
-            action: "new"
-        )
-    end
-
-    it 'routes / to search#new' do
-        expect(get: '/').to route_to(
-            controller: "searches",
-            action: "new"
-        )
-    end
-
+describe SearchesController, type: :feature do
     ## These tests need to be implemented and confirmed. This is the next step in the
     ## process, both checking things I've already implemented as well as checking for
     ## safeguards against edge cases.
-    it "redirects to home page if 404 error" do
+    it "redirects to home page if 404/400 errors" do
     end
     
-    it "presents appropriate message if 404 error" do
-    end
-
-    it "redirects to home page if 400 error" do
-    end
-
-    it "presents appropriate message if 400 error" do
+    it "gets a JSON response with a valid query" do
+        visit 'search'
+        within('#search') do
+            fill_in 'q', with: 'house'
+        end
+        click_button 'Search'
+        expect(page).to have_content 'Title'
     end
 
     it "rejects a blank query" do
@@ -46,8 +31,6 @@ describe SearchesController, type: :controller do
     it "trims record separators (e.g. \n or \r) from input" do
     end
 
-    it "gets a JSON response with a valid query" do
-    end
 
     it "handles multiple word inputs and cleans extra spaces" do
     end
