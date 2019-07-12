@@ -1,20 +1,24 @@
 class SearchesController < ApplicationController
-    # require will_paginate/array
-
     def new
     end
-
+    
     def show
-        search_query = params['q'].strip.gsub(/\s+/, '+')
-        response = RestClient.get "https://www.googleapis.com/books/v1/volumes?q=#{search_query}"
-
-        json = JSON.parse(response)
+        if !params['q'].nil? then
+            # If there is a new query passed, cache that query string to call again for new pages
+            @search_query = params['q'].strip.gsub(/\s+/, '+')
+            $redis.set("query", params[:q])
+        else
+            # If there is not a new query, use cached query
+            @search_query = $redis.get("query")
+        end
         
-        if !json['totalItems'].zero?
-            #   @books = json["items"]
-            #   paginate json: @books, per_page: 10
+        # Google books API call and JSON parsing
+        response = RestClient.get "https://www.googleapis.com/books/v1/volumes?q=#{@search_query}&maxResults=30"
+        api_results = JSON.parse(response)
+
+        if !api_results['totalItems'].zero?
             @books = []
-            json["items"].each do |b|
+            for b in api_results["items"] do
                 # Initialize variables that will initialize a Book object for each search result
                 previewLink = ""
                 title = ""
@@ -30,10 +34,12 @@ class SearchesController < ApplicationController
                 if b["volumeInfo"]["imageLinks"].present? then thumbnail = b["volumeInfo"]["imageLinks"]["thumbnail"] end
                 
                 # Create an object from the search result attributes and append it to the books array to use in the view
-                result = Book.new(previewLink, title, authors, publisher, thumbnail)
-                @books.push(result)
+                results = Book.new(previewLink, title, authors, publisher, thumbnail)
+                @books.push(results)
             end
-
+            # Call the pagy function for arrays to paginate results
+            @pagy_a, @books = pagy_array(@books, page: (params[:page]), count: 30, items: 10, size: [1, 1, 1, 1])
+            
         else
             render :new
         end

@@ -84,8 +84,9 @@ gem 'bootswatch-rails'
 gem 'bootstrap', '~> 4.3.1'
 
 # Pagination gem and bootstrap pagination
-gem 'will_paginate', '~> 3.1.0'
-gem 'will_paginate-bootstrap'
+gem 'pagy'
 
-# Gem to paginate API results
-gem 'api-pagination'
+# Redis server for caching queries, namespace gem for ease of reference
+gem 'redis'
+gem 'redis-rails'
+gem 'redis-namespace'
