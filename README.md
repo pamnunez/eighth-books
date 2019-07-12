@@ -57,14 +57,14 @@ Coming soon!
 
 ### Todos
 
- [x] Make the results paginated and have more than the limited number of results be visible and accessible
- [ ] Implement current tests and add new ones to check for more edge cases and functionality
- [ ] Add more descriptive text to the site to make it more user friendly and clear
- [x] Test for responsiveness in terms of media sizes, and confirm that styling is consistent across media/browsers
- [ ] Implement a preview function that allows someone to view basic information about a book before clicking on that result to view the full information page. Ideally this would be done asynchronously and would appear on the same screen as the search results as an alert.
- [ ] Add a dedicated error page for 400s/404s/etc
- [ ] Implement more robust user input cleanup including preventing code injection
- [x] Address the security vulnerability reported by Github regarding the bootstrap-sass dependency
+ - [x]  Make the results paginated and have more than the limited number of results be visible and accessible
+ - [ ]  Implement current tests and add new ones to check for more edge cases and functionality
+ - [ ]  Add more descriptive text to the site to make it more user friendly and clear
+ - [x]  Test for responsiveness in terms of media sizes, and confirm that styling is consistent across media/browsers
+ - [ ]  Implement a preview function that allows someone to view basic information about a book before clicking on that result to view the full information page. Ideally this would be done asynchronously and would appear on the same screen as the search results as an alert.
+ - [ ]  Add a dedicated error page for 400s/404s/etc
+ - [ ]  Implement more robust user input cleanup including preventing code injection
+ - [x]  Address the security vulnerability reported by Github regarding the bootstrap-sass dependency
 
 ### Author
 
