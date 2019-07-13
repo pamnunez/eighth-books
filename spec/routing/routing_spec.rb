@@ -1,11 +1,14 @@
 require 'rails_helper'
 
-describe "Routing testing", :type => :routing do
-    it "routes /search to search#new" do
-        expect(get: '/search').to route_to(
-            controller: "searches",
-            action: "new"
-        )
+RSpec.describe "Routing testing", :type => :routing do
+    it "redirects to home page if 404/400 errors" do
+        visit 'search/12983'
+        expect(page).to have_content
+    end
+
+    it 'Load the search screen' do
+        visit '/'
+        expect(page).to have_button("Search")
     end
 
     it 'routes / to search#new' do
