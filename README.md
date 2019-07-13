@@ -73,7 +73,10 @@ This test confirms the functionality from end to end.The unit tests are availabl
  - spec/controllers/searches_controller_spec.rb
  - spec/features/pagination_spec.rb
  - spec/routing/routing_spec.rb
-
+In addition to manual running of tests, committing to the repository will run tests and prevent commits if tests don't fail. If you want to bypass this, you can run:
+```sh
+git commit --no-verify
+```
 
 
 ### Todos
@@ -92,7 +95,7 @@ This test confirms the functionality from end to end.The unit tests are availabl
 Pamela Nunez, June 2019
 
 
-[//]: # 
+[//]: #
 
    [bootswatch]: <https://bootswatch.com/flatly/>
    [bootstrap]: <https://getbootstrap.com/docs/4.3/getting-started/introduction/>

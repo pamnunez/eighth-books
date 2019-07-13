@@ -97,3 +97,5 @@ gem 'redis-namespace'
 gem 'activerecord-nulldb-adapter'
 
 gem 'rails-controller-testing'
+
+gem 'rubocop', '~> 0.72.0', require: false
