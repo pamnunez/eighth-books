@@ -4,7 +4,6 @@ class SearchesController < ApplicationController
 
     def show
         if !params['q'].nil? then
-            # git prehook test
             # If there is a new query passed, cache that query string to 
             # call again for new pages and clear old page cache to first page
             @search_query = params['q'].strip.gsub(/\s+/, '+')
