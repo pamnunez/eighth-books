@@ -16,6 +16,9 @@ Powered by Google Books API
 
 * [Ruby on Rails][ror5] - version 5.2.3
 * [Ruby][ruby] - version 2.5.0p0
+* [Redis][redis] - version 4.1.2
+* [RSpec][rspec] - version 3.8.2
+* [Capybara][capyb] - version 3.25.0
 * [Bootswatch Rails][boots-rails] - Repository of Bootswatch themes converted into SCSS and importable directly into Rails.
 * [Bootstrap 4][bootstrap] - UI boilerplate for modern web apps
 * [Google Books API][gbooks] - API allowing for the querying of a massive collection of books/texts and their identifying information
@@ -54,16 +57,29 @@ There is currently no continuous integration implemented, this is soon to come.
 
 ### Testing
 
-One of the gems in the Capybara testing requires the following node package to be installed:
+While the app does not use a database, in order to run tests, a database needs to be migrated for the testing frameworks to run. 
 ```sh
-npm install --save-dev angular-http-server
+# Generate rspec test scripts
+bundle exec rails generate rspec:install
+# Generate a db
+bundle exec rake db:create:all db:migrate
+# Run rspec tests
+rspec spec/test_file_spec.rb
 ```
+There are unit tests and an integration test implemented. The integration test is available in:
+ - spec/integration/integration_spec.rb 
+
+This test confirms the functionality from end to end.The unit tests are available in:
+ - spec/controllers/searches_controller_spec.rb
+ - spec/features/pagination_spec.rb
+ - spec/routing/routing_spec.rb
+
 
 
 ### Todos
 
  - [x]  Make the results paginated and have more than the limited number of results be visible and accessible
- - [ ]  Implement current tests and add new ones to check for more edge cases and functionality
+ - [x]  Implement current tests and add new ones to check for more edge cases and functionality
  - [ ]  Add more descriptive text to the site to make it more user friendly and clear
  - [x]  Test for responsiveness in terms of media sizes, and confirm that styling is consistent across media/browsers
  - [ ]  Implement a preview function that allows someone to view basic information about a book before clicking on that result to view the full information page. Ideally this would be done asynchronously and would appear on the same screen as the search results as an alert.
@@ -76,7 +92,7 @@ npm install --save-dev angular-http-server
 Pamela Nunez, June 2019
 
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+[//]: # 
 
    [bootswatch]: <https://bootswatch.com/flatly/>
    [bootstrap]: <https://getbootstrap.com/docs/4.3/getting-started/introduction/>
@@ -88,3 +104,6 @@ Pamela Nunez, June 2019
    [heroku]: <http://heroku.com/home>
    [repo]: <https://github.com/pamnunez/eighth-books>
    [eighthbooks]: <https://eighthbooks.herokuapp.com>
+   [redis]: <https://redis.io/>
+   [capyb]: <https://teamcapybara.github.io/capybara/>
+   [rspec]: <https://rspec.info/>
