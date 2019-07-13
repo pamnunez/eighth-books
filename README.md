@@ -19,6 +19,7 @@ Powered by Google Books API
 * [Redis][redis] - version 4.1.2
 * [RSpec][rspec] - version 3.8.2
 * [Capybara][capyb] - version 3.25.0
+* [RuboCop][rubo] - version 0.72.0
 * [Bootswatch Rails][boots-rails] - Repository of Bootswatch themes converted into SCSS and importable directly into Rails.
 * [Bootstrap 4][bootstrap] - UI boilerplate for modern web apps
 * [Google Books API][gbooks] - API allowing for the querying of a massive collection of books/texts and their identifying information
