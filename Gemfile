@@ -95,3 +95,5 @@ gem 'redis-namespace'
 
 # Gem to allow for testing without configuring a db
 gem 'activerecord-nulldb-adapter'
+
+gem 'rails-controller-testing'

@@ -1,17 +1,18 @@
-example_id                                            | status | run_time        |
------------------------------------------------------ | ------ | --------------- |
-./spec/controllers/searches_controller_spec.rb[1:1]   | passed | 1.01 seconds    |
-./spec/controllers/searches_controller_spec.rb[1:2:1] | failed | 0.60829 seconds |
-./spec/controllers/searches_controller_spec.rb[1:3]   | passed | 0.00265 seconds |
-./spec/controllers/searches_controller_spec.rb[1:4]   | passed | 0.0042 seconds  |
-./spec/controllers/searches_controller_spec.rb[1:5]   | passed | 0.00251 seconds |
-./spec/controllers/searches_controller_spec.rb[1:6]   | passed | 0.0028 seconds  |
-./spec/controllers/searches_controller_spec.rb[1:7]   | passed | 0.00241 seconds |
-./spec/integration/integration_spec.rb[1:1:1]         | passed | 1.04 seconds    |
-./spec/integration/integration_spec.rb[1:1:2]         | failed | 0.0023 seconds  |
-./spec/integration/integration_spec.rb[1:1:3]         | passed | 0.82089 seconds |
-./spec/integration/integration_spec.rb[1:1:4]         | passed | 1.3 seconds     |
-./spec/integration/integration_spec.rb[1:1:5]         | passed | 1.18 seconds    |
-./spec/routing/routing_spec.rb[1:1]                   | passed | 0.01406 seconds |
-./spec/routing/routing_spec.rb[1:2]                   | passed | 0.00305 seconds |
-./spec/routing/routing_spec.rb[1:3]                   | passed | 0.00407 seconds |
+example_id                                          | status | run_time        |
+--------------------------------------------------- | ------ | --------------- |
+./spec/controllers/searches_controller_spec.rb[1:1] | failed | 0.42166 seconds |
+./spec/controllers/searches_controller_spec.rb[1:2] | failed | 0.44089 seconds |
+./spec/controllers/searches_controller_spec.rb[1:3] | passed | 0.57975 seconds |
+./spec/controllers/searches_controller_spec.rb[1:4] | passed | 0.42569 seconds |
+./spec/controllers/searches_controller_spec.rb[1:5] | passed | 0.40282 seconds |
+./spec/features/pagination_spec.rb[1:1]             | passed | 1.34 seconds    |
+./spec/features/pagination_spec.rb[1:2]             | passed | 1.25 seconds    |
+./spec/features/pagination_spec.rb[1:3]             | passed | 1.29 seconds    |
+./spec/integration/integration_spec.rb[1:1:1]       | passed | 1.04 seconds    |
+./spec/integration/integration_spec.rb[1:1:2]       | failed | 0.0023 seconds  |
+./spec/integration/integration_spec.rb[1:1:3]       | passed | 0.82089 seconds |
+./spec/integration/integration_spec.rb[1:1:4]       | passed | 1.3 seconds     |
+./spec/integration/integration_spec.rb[1:1:5]       | passed | 1.18 seconds    |
+./spec/routing/routing_spec.rb[1:1]                 | passed | 0.01406 seconds |
+./spec/routing/routing_spec.rb[1:2]                 | passed | 0.00305 seconds |
+./spec/routing/routing_spec.rb[1:3]                 | passed | 0.00407 seconds |
