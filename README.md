@@ -95,6 +95,10 @@ git commit --no-verify
  - [x] Add caching for searching
  - [x] Paginate results table
  - [x] Add pre-commit hook to stop commits if tests fail
+ - [ ] Re-write the show method in the search controller to move some of the logic into helper functions and makes show shorter
+ - [ ] Find alternative to using html_safe to render the pagy views
+ - [ ] Address bugs with routes and redirection when handling erroneous paths in the URL
+ - [ ] Address form validation JS function errors
 
 
 ### Author
