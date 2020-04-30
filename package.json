@@ -2,7 +2,7 @@
   "name": "eighth-books",
   "private": true,
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "angular-http-server": "^1.9.0"
